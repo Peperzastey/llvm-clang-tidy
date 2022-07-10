@@ -128,6 +128,11 @@ New checks
   Warns when the code is unwrapping a `std::optional<T>`, `absl::optional<T>`,
   or `base::Optional<T>` object without assuring that it contains a value.
 
+- New :doc:`cppcoreguidelines-concepts-for-all-template-args
+  <clang-tidy/checks/cppcoreguidelines/concepts-for-all-template-args>` check.
+
+  FIXME: add release notes.
+
 - New :doc:`misc-confusable-identifiers <clang-tidy/checks/misc/confusable-identifiers>` check.
 
   Detects confusable Unicode identifiers.
